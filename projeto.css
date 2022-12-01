@@ -1,0 +1,12 @@
+header{
+    position: relative;
+    height: 20vh;
+    width: 100vw;
+    /* adicionando imagem de fundo */
+    background: url('img01.jpg');
+    background-size: cover;
+    
+
+    
+}
+

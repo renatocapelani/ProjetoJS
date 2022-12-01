@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="bootstrap5/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="projeto.css"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="projeto.js"></script>
+    <title>Projeto</title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <section>
+        <div class="container">
+            <div class="row">
+                    <div class="col-sm-15">
+                      <div class="card">
+                        <div class="card-header">
+                            Cadastro de Celulares
+                        </div>
+                        <div class="card-body">
+                          
+                            
+                            <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                    <span class="input-group-text" >#</span>
+                                    </div>
+                                    <input type="text" class="form-control" id="sn" placeholder="Serial Number"  aria-describedby="basic-addon1">
+                                </div>
+
+                                
+                            <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                    <span class="input-group-text" >#</span>
+                                    </div>
+                                    <input type="text" class="form-control" id="imei1" placeholder="IMEI1"  aria-describedby="basic-addon1">
+                                </div>
+
+
+                            <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                    <span class="input-group-text" >#</span>
+                                    </div>
+                                    <input type="text" class="form-control" id="imei2" placeholder="IMEI2"  aria-describedby="basic-addon1">
+                                </div>
+
+
+                            <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                        <span class="input-group-text" >#</span>
+                                        </div>
+                                        <input type="text" class="form-control" id="color" placeholder="COLOR"  aria-describedby="basic-addon1">
+                                </div>
+
+
+                            <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                        <span class="input-group-text" >#</span>
+                                        </div>
+                                        <input type="text" class="form-control" id="manufacturer" placeholder="MANUFACTURER"  aria-describedby="basic-addon1">
+                                </div>
+
+
+                            <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                        <span class="input-group-text" >#</span>
+                                        </div>
+                                        <input type="text" class="form-control" id="model" placeholder="MODEL"  aria-describedby="basic-addon1">
+                                </div>
+
+
+                            <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                        <span class="input-group-text" >#</span>
+                                        </div>
+                                        <input type="text" class="form-control" id="type" placeholder="TYPE"  aria-describedby="basic-addon1">
+                                </div>
+    
+                            <button class="btn btn-primary" id="btSalvar">Salvar</button>
+
+                            <br/>
+                            <br/>
+                            
+                            
+                        </div>                      
+
+                    </div>
+                </div>
+
+                <div class="col-sm-15">
+                        <div class="card">
+                          <div class="card-header">
+                              Lista de Celulares
+                          </div>
+                          <div class="card-body">
+                              <table class="table table-striped">
+                                    <thead>
+                                            <tr>
+                                              <th scope="col">SN</th>
+                                              <th scope="col">IMEI1</th>
+                                              <th scope="col">IMEI2</th>
+                                              <th scope="col">COLOR</th>
+                                              <th scope="col">MANUFACTURER</th>
+                                              <th scope="col">MODEL</th>
+                                              <th scope="col">TYPE</th>
+                                              <th scope="col"></th>
+
+                                            </tr>
+                                    </thead>
+                                        <tbody id="tbProdutos">
+
+                                        </tbody>
+                              </table>
+                          </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
